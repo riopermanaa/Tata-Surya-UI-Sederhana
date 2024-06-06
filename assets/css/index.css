@@ -1,0 +1,157 @@
+/* Style css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/tata-surya/galaxy.jpg);
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: dimgray;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+
+header{
+    display: inline;
+}
+
+nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    flex-basis: 50%;
+    color: white;
+}
+
+.logo h2 a, p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ul{
+    display: flex;
+}
+
+ul lI{
+    text-align: center;
+    flex-basis: 50%;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-right: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: cornflowerblue;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+#tata-surya{
+    float: left;
+    width: 68%;
+    padding: 10px;
+}
+
+.image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#profile{
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+#profile img{
+    width: 200px;
+    size: cover;
+}
+
+#profile h4{
+    text-align: center;
+}
+
+#profile table{
+    text-align: justify;
+}
+
+#profile h3{
+    text-align: center;
+}
+
+main{
+    overflow: auto;
+    padding: 20px;
+    z-index: 5;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: dimgrey;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+article{
+    position: relative;
+    background-color: rgb(255, 255, 255,0.8);
+}
+
+aside{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Akhir style css */
+
+
+
+/* Css responsiv */
+@media screen and (max-width: 513px){
+    #tata-surya,#profile{
+        padding: 20px;
+        width: 100%;
+    }
+}
+/* Akhir css responsiv */
+
